@@ -1,6 +1,6 @@
 {
   "name": "@pyramation/args",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "cli tool for parsing arguments when building nodejs command line interfaces",
   "main": "main/index.js",
   "module": "module/index.js",
