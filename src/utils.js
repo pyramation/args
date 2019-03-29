@@ -141,7 +141,12 @@ const validateArgs = (questions = [], argv = { _: [] }) => {
 };
 
 // TODO get resolvePath via injector pattern
-const resolvePath = s => s;
+const { join } = require('path');
+const resolvePath = function (path = '.') {
+  return path.startsWith('/')
+    ? path
+    : join(process.cwd(), path);
+};
 
 const processArgPaths = (questions = [], argv = { _: [] }) => {
   questions
