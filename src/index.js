@@ -1,4 +1,6 @@
 export * from './utils';
+export * from './minimist-mod';
+
 import { minimist } from './minimist-mod';
 import { getMinimistOpts, processArgs, processArgPaths, validateArgs } from './utils';
 
