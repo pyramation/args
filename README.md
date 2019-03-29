@@ -1,5 +1,4 @@
 
+# @pyramation/args
 
-```
-yarn add @pyramation/test-node
-```
+Helper for args spun out of the idea of https://github.com/pyramation/inquirerer
